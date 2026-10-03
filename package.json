@@ -1,0 +1,20 @@
+{
+  "name": "@lanitech/pi-ja",
+  "version": "0.1.0",
+  "description": "Japanese localization pack for the Pi coding agent: Japanese system prompt rules, Japanese UI labels, and Japanese design-doc templates.",
+  "keywords": ["pi-package", "pi", "japanese", "localization", "i18n", "ja"],
+  "license": "MIT",
+  "author": "Lanitech LLC (https://lanitech.jp)",
+  "homepage": "https://github.com/lanitech/pi-ja#readme",
+  "repository": { "type": "git", "url": "git+https://github.com/lanitech/pi-ja.git" },
+  "type": "module",
+  "files": ["extensions", "skills", "README.md", "README.en.md", "LICENSE"],
+  "pi": {
+    "extensions": ["./extensions/ja.ts"],
+    "skills": ["./skills"]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*"
+  }
+}
