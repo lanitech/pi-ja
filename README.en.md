@@ -45,7 +45,7 @@ A real response with pi-ja (Japanese explanation, file names untouched, `docs(re
 
 ## Limitations
 
-Built-in menus, command descriptions, and settings screens cannot be replaced through the extension API and remain in English.
+pi-ja does not runtime-patch Pi internals, so built-in menus, command descriptions, and settings screens stay in English. To translate those too, install [pi-di18n](https://www.npmjs.com/package/pi-di18n) alongside it (checked with pi-di18n 0.2.1): pi-di18n handles UI strings, pi-ja handles the agent's working rules and design-doc templates. With both installed, pi-ja's rules, `/ja` command and status line work, but pi-ja's startup header is not shown.
 
 ## License
 
