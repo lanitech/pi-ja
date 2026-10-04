@@ -35,6 +35,10 @@ pi install npm:@lanitech/pi-ja
 | --- | --- |
 | ![default](docs/images/before.png) | ![pi-ja](docs/images/after.png) |
 
+A real response with pi-ja (Japanese explanation, file names untouched, `docs(readme): ...` commit message):
+
+![response](docs/images/response.png)
+
 `/ja keys` shows key bindings in Japanese:
 
 ![/ja keys](docs/images/keys.png)
